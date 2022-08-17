@@ -1,0 +1,41 @@
+.monthpickerbtn{
+    color: rgb(109,109,109);
+    width: 50%;
+    background: white;
+    border-width: 1px;
+    line-height: 2.4em;
+    border-color: gray;
+    text-align: left;
+    padding-left: 2em;
+}
+.month-year-picker{
+    border: 1px solid rgba(233,233,233,0.8) !important;
+    width: 300px !important;
+}
+.month-year-picker{
+    margin-top:0px !important;
+    margin:inherit !important;
+}
+.month-year-picker .year-picker .controls{
+    justify-content: space-between;
+    width:100% !important;
+}
+.month-year-picker .month-picker > div > div {
+    color:rgba(115,115,115,1);
+    margin:0 !important;
+    width: 25% !important;
+    background-color: #FFFFFF;
+}
+.month-year-picker .year-picker span{
+    font-size:16px;
+    color:rgba(115,115,115,1);
+}
+.month-year-picker .month-picker > div > div.selected {
+     background-color:rgba(94,99,111,1);
+    color: #FFFFFF;
+}
+.month-year-picker .year-picker .controls .fa {
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 16px;
+}

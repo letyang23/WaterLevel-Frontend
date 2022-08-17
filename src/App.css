@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+@media screen and (min-width: 1512px) {
+	header,.content{
+        width:1512px;
+        margin:0 auto;
+    }
+    .header{
+        height:140px;
+    }
+    header{
+        line-height:140px;
+    }
+    .row{
+        margin-top:90px;
+    }
+    .row1{
+        padding-right:60px;
+    }
+}
+
+@media screen and (max-width: 1512px) and (min-width:900px) {
+	header,.content{
+        width:900px;
+        margin:0 auto;
+    }
+    .header{
+        height:76px;
+    }
+    header{
+        line-height:76px;
+    }
+    .row{
+        margin-top:60px;
+    }
+    .row1{
+        padding-right:40px;
+    }
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    background-color:rgb(66,145,152);
+    font-size:28px;
+    font-weight:bold;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+
+.row{
+    display:flex;
+    justify-content: space-between;
+}
+.row1{
+    width:60%;
+    font-family: 'Inter', sans-serif;
+    font-weight: regular;
+}
+.row2{
+    width:40%;
+}
+img{
+    width:100%;
+    height:auto;
+}
+.capture{
+    font-size:12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: regular;
+}
+.row12{
+    margin:1em 0;
+}
+a{
+    text-decoration:none;
+    color: rgb(120,199,227);
+}
+.btn{
+    background-color:rgb(66,145,152);
+    padding:0.8em 3em;
+    font-size:16px;
+    border-radius:5px;
+    color:white;
+    font-weight:bold;
+    border:none;
+}
+.fig,.op{
+    width:50%;
+}
+.fig{
+    padding-right: 10%;
+}
+.barfig{
+    min-height:300px;
+    width:auto;
+}
+.optitle{
+    font-weight:bold;
+    color:rgb(66,145,152);
+    margin-bottom:0.8em;
+}
+.datepicker{
+    margin-top: 1em;
+}
+
+@media screen and (max-width:900px) {
+    header{
+        padding:0.5em 0;
+    }
+	header,.content{
+        width:480px;
+        margin:0 auto;
+    }
+    .row{
+        flex-wrap: wrap-reverse;
+        margin:1em 0;
+    }
+    .row1,.row2,.fig,.op{
+        width:100%;
+    }
+    .row1{
+        margin:1em 0;
+    }
+    .fig {
+        padding-right: 0;
+    }
+
+
+  
+@media screen and (max-width:480px){
+  header,.content{
+    width:auto;
+    margin: 0 1em;
+        }
+    }
+
+  .header{
+    text-align : center;
+  }
+}
